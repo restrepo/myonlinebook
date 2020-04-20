@@ -57,3 +57,6 @@
   - title: Index
     url: /features/index
     not_numbered: true
+  - title: Minimization
+    url: /features/Minimization
+    not_numbered: false
