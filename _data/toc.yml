@@ -50,13 +50,22 @@
   sections:
   - title: Markdown files
     url: /features/markdown
-    not_numbered: true
+    not_numbered: false
   - title: Jupyter notebooks
     url: /features/notebooks
-    not_numbered: true
+    not_numbered: false
   - title: Index
     url: /features/index
-    not_numbered: true
+    not_numbered: false
+  - title: Hemite interpolation
+    url: /features/interpolation_details
+    not_numbered: false
   - title: Minimization
     url: /features/Minimization
+    not_numbered: false
+  - title: Minimization
+    url: /features/Minimization
+    not_numbered: false
+  - title: Minimization for Least Action
+    url: /features/least_action_minimization
     not_numbered: false
