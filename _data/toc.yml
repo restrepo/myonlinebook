@@ -23,14 +23,9 @@
 
 # Top-level page
 - title: Home
-  url: /intro
+  url: /index
   not_numbered: true
 
-# External link
-- title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
-  external: true
-  not_numbered: true
 
 # Adds a searchbar link
 - title: Search
@@ -43,9 +38,34 @@
 - header: Demo textbook
 
 # A chapter w/ a collection of sections beneath it
+- title: Interpolation
+  url: /features/interpolation
+  not_numbered: false
+  expand_sections: true
+  sections:
+  - title: Hemite interpolation
+    url: /features/interpolation_details
+    not_numbered: false
+  - title: Minimization
+    url: /features/Minimization
+    not_numbered: false
+  - title: Minimization for Least Action
+    url: /features/least_action_minimization
+    not_numbered: false
+
+# Hel pages
+- title: Home
+  url: /intro
+  not_numbered: true
+
+# External link
+- title: GitHub repository
+  url: https://github.com/jupyter/jupyter-book
+  external: true
+  not_numbered: true
 - title: Features and customization
   url: /features/features
-  not_numbered: true
+  not_numbered: false
   expand_sections: true
   sections:
   - title: Markdown files
@@ -53,19 +73,4 @@
     not_numbered: false
   - title: Jupyter notebooks
     url: /features/notebooks
-    not_numbered: false
-  - title: Index
-    url: /features/index
-    not_numbered: false
-  - title: Hemite interpolation
-    url: /features/interpolation_details
-    not_numbered: false
-  - title: Minimization
-    url: /features/Minimization
-    not_numbered: false
-  - title: Minimization
-    url: /features/Minimization
-    not_numbered: false
-  - title: Minimization for Least Action
-    url: /features/least_action_minimization
     not_numbered: false

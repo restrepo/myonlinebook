@@ -16,14 +16,14 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
+title: Computational methods
+author: Sebastian Bustamante, Diego Restrepo
+email: restrepo@udea.edu.co
 description: >-
-  This is an example book built with Jupyter Books.
+  Numerical methods commonly used in science
 
 baseurl: /  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: YOUR URL                  # the base hostname & protocol for your site, e.g. http://example.com
+url: https://restrepo.github.io/ComputationalMethods          # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
