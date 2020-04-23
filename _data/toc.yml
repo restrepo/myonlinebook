@@ -30,7 +30,7 @@
 - divider: true
 
 # Add a header and sample content section
-- header: Demo textbook
+- header: Contents
 
 # A chapter w/ a collection of sections beneath it
 - title: Interpolation
